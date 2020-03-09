@@ -1,0 +1,31 @@
+{
+  "name": "nucleus-serverless",
+  "version": "1.0.0",
+  "description": "nucleus-serverless",
+  "main": "handler.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "babel": {
+    "plugins": [
+      "source-map-support",
+      "transform-runtime"
+    ],
+    "presets": [
+      [
+        "env",
+        {
+          "node": "8.10"
+        }
+      ],
+      "stage-3"
+    ]
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.590.0",
+    "serverless-bundle": "^1.2.5",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.3.3"
+  },
+  "dependencies": {}
+}
